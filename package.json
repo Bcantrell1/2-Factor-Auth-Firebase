@@ -1,0 +1,29 @@
+{
+  "name": "2-factor-auth",
+  "version": "1.0.0",
+  "description": "2 factor authentication with firebase and google's identity platform",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bcantrell1/2-Factor-Auth-Firebase.git"
+  },
+  "author": "Brian Cantrell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bcantrell1/2-Factor-Auth-Firebase/issues"
+  },
+  "homepage": "https://github.com/Bcantrell1/2-Factor-Auth-Firebase#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "firebase": "^9.1.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "rollup": "^2.58.0",
+    "rollup-plugin-serve": "^1.1.0"
+  }
+}

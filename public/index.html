@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Factor Authentication</title>
+    <script defer src="bundle.js"></script>
+</head>
+<body>
+    <h1>Two Factor Authentication With Firebase</h1>
+
+    <div id="captcha"></div>
+
+    <div id="user"></div>
+
+    <input class="email-input" id="signup-email" value="yourEmail@gmail.com"> 
+    <input class="password-input" id="signup-password" value="**********"> 
+
+    <button class="sing-up-button" id="signup-button">Sign Up as New User</button>
+
+    <h3>Enroll in Two Factor Auth</h3>
+
+    <input class="input" id="phone" value="+"> 
+
+    <button class="button" id="setup-button">Setup Phone</button>
+
+    <h5>Verify Code</h5>
+
+    <input class="input" id="code" value=""> 
+    <button class="button" id="verify">Verify</button>
+
+
+    <h3>Sign Out</h3>
+
+    <button class="button is-warning" id="signout">Sign Out</button>
+
+    <h3>Login with 2 factor auth</h3>
+
+    <h5>Enter password</h5>
+
+    <input class="login-email-input" id="login-email" value="yourEmail@gmail.com"> 
+    <input class="login-password-input" id="login-password" value="**********"> 
+    <button class="login-button" id="login-button">Login</button><br>
+
+    <h5>Verify 2 factor code</h5>
+    <input class="input" id="login-code" value=""> 
+    <button class="button" id="login-verify">Verify</button>
+</body>
+</html>
